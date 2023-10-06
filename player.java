@@ -8,7 +8,7 @@ public class player {
         this.name = name;
         this.state = new offlineState();
         this.score = 0;
-        this.isTeamBased = isTeamBased;
+        this.isTeamBased = false; // set to false for demo. otherwise, this.isTeamBased = isTeamBased;
     }
 
     // Getter for isTeamBased property

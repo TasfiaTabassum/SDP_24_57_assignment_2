@@ -21,7 +21,7 @@ public class cloudAccountManager {
 
     public static void deletePlayerData(player Player) {
         System.out.println("Deleting " + Player.getName() + "'s data from cloud...");
-        System.out.println("Deleted" + Player.getName() + "'s data from cloud ");
+        System.out.println("Deleted " + Player.getName() + "'s data from cloud ");
     }
 
     public static void restorePlayerData(player Player) {
@@ -32,6 +32,6 @@ public class cloudAccountManager {
     public static void permanentlyDeletePlayerData(player Player) {
         System.out.println("Warning: It is not possible to retrieve data after permanent deletion");
         System.out.println("Permanently deleting " + Player.getName() + "'s data from cloud...");
-        System.out.println("Permanently deleted" + Player.getName() + "'s data from cloud.");
+        System.out.println("Permanently deleted " + Player.getName() + "'s data from cloud.");
     }
 }
